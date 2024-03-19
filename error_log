@@ -1,0 +1,8 @@
+[03-Oct-2019 11:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/demowebsite/public_html/erp_cars/wp-content/themes/erp-cars/tracking_details_template.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/demowebsite/public_html/erp_cars/wp-content/themes/erp-cars/tracking_details_template.php on line 5
+[15-Feb-2022 09:01:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/hfcjoyez/public_html/wp-content/themes/erp_cars/404.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/hfcjoyez/public_html/wp-content/themes/erp_cars/404.php on line 8

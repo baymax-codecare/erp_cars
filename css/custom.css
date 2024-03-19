@@ -1,0 +1,2650 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+@font-face{
+
+	font-family:roboto;
+
+	src:url(../fonts/Roboto-Regular.woff);
+
+}
+
+
+
+body{
+
+	font-family:roboto !important;
+
+	font-size:12px;
+
+	color:#070303;
+
+}
+
+
+
+.fa {
+
+	font: normal normal normal 14px/1 FontAwesome !important;
+
+}
+
+
+
+p, ul, li, h1, h2, h3, h4, h5, h6{
+
+	margin:0;
+
+	padding:0;
+
+	color: #000;
+
+}
+
+
+
+
+
+a:hover{ text-decoration:none; }
+
+
+
+a:focus,
+
+button:focus,
+
+.button.alt:focus,
+
+input:focus,
+
+textarea:focus,
+
+input[type="button"]:focus,
+
+input[type="reset"]:focus,
+
+input[type="submit"]:focus,
+
+input[type="email"]:focus,
+
+input[type="tel"]:focus,
+
+input[type="url"]:focus,
+
+input[type="password"]:focus,
+
+input[type="search"]:focus {
+
+	outline: none !important;
+
+}
+
+
+
+img{
+
+	vertical-align:middle;
+
+}
+
+
+
+.nopad{
+
+	padding-left:0;
+
+	padding-right:0;
+
+}
+
+
+
+h2{
+
+	font-size:36px;
+
+}
+
+
+
+h3{
+
+	font-size:20px;
+
+}
+
+
+
+.erp_header{
+
+	width:100%;
+
+	background:#363535;
+
+	padding:5px 0;
+
+}
+
+
+
+#sel_language{
+
+	width:80%;
+
+	background:transparent;
+
+	border:1px solid #fff;
+
+	color:#fff;
+
+	height:30px;
+
+	padding:0 5px;
+
+	border-radius:3px;
+
+}
+
+
+
+#sel_language option{
+
+	color:#070303;
+
+}
+
+
+
+#erp_search{
+
+	width:73%;
+
+	background:transparent;
+
+	border:1px solid #fff;
+
+	color:#fff;
+
+	height:30px;
+
+	padding:0 5px;
+
+}
+
+
+
+#erp_search::placeholder{
+
+	color:#b1adad;
+
+}
+
+
+
+.erp_search_btn{
+
+	width:25%;
+
+	background:#1ea8e0;
+
+	color:#fff;
+
+	height:30px;
+
+	border:1px solid #1ea8e0;
+
+	font-size:14px;
+
+	border-radius:0;
+
+}
+
+
+
+.erp_header ul{
+
+	display:inline-block;
+
+	list-style:none;
+
+	text-align:right;
+
+	width:100%;
+
+	padding:8px 0;
+	margin:0;
+
+}
+
+
+
+.erp_header ul li{
+
+	display:inline-block;
+
+	color:#fff;
+
+	padding-left:12px;
+
+}
+
+
+
+.erp_hdr_link{
+
+	padding-right:14px;
+
+	border-right:1px solid #fff;
+
+}
+
+
+
+.erp_header ul li a{
+
+	color:#fff;
+
+	text-decoration:none;
+
+}
+
+
+
+.erp_nav_sec{
+
+	width:100%;
+
+	padding:10px 0;
+
+}
+
+
+
+.erp_nav_sec img{
+
+	width:55%;
+
+}
+
+
+
+.bg-light{
+
+	background:transparent !important;
+
+	padding-right:0;
+
+	padding:15px 0;
+
+	width:100%;
+
+}
+
+
+
+.navbar-nav{
+
+	font-size:14px;
+
+	text-transform:uppercase;
+
+	width:100%;
+
+	margin: 10px 0;
+	
+	/*padding-left:34%;*/
+
+}
+
+.erp_nav_menu {
+    float: right;
+}
+
+.navbar-light .navbar-nav a{ color:#070303;}
+
+
+
+.navbar-expand-lg .navbar-nav a{ padding:15px 15px;}
+
+
+
+.navbar-light .navbar-nav .show > a, .navbar-light .navbar-nav active > a, .navbar-light .navbar-nav a.show, .navbar-light .navbar-nav a:active{ color:#5577ba;}
+
+
+
+.navbar-light .navbar-nav a:hover, .navbar-light .navbar-nav a:focus{ outline:none; color:#5577ba; text-decoration:none;}
+
+
+
+.erp_bnr_sec{
+
+	width:100%;
+
+	background:url(../image/banner.jpg);
+
+	padding:7% 0;
+
+	background-size:cover;
+
+}
+
+
+
+.erp_bnr_sec p{
+
+	font-size:40px;
+
+	color:#fff;
+
+}
+
+
+
+.erp_transport_sec{
+
+	width:100%;
+
+}
+
+
+
+.erp_sidebar{
+
+	background:#efeded;
+
+	padding:20px 15px;
+
+}
+
+
+
+.erp_sidebar p{
+
+	margin-top:15px;
+
+}
+
+
+
+#erp_track p{
+
+	font-size:14px;
+
+	margin-top:20px;
+
+	font-weight:bold;
+	width:100%;
+	margin-bottom:0;
+}
+
+
+
+#erp_track_num{
+
+	width:100%;
+
+	height:30px;
+
+	border:1px solid #5577ba;
+
+	margin-top:10px;
+
+	background:transparent;
+
+	padding:0 10px;
+
+}
+
+
+
+#erp_trck_agree{
+
+	width:15px;
+
+	height:15px;
+
+	margin: 0px 12px 0 0;
+
+}
+
+
+
+.erp_track_box{
+
+	font-size:14px;
+
+	margin-top:25px;
+
+	color:#000;
+
+}
+
+
+
+.track_btn{
+
+	width:30%;
+
+	background:#1ea8e0;
+
+	color:#fff;
+
+	font-size:14px;
+
+	line-height:20px;
+
+	border-radius:3px;
+
+	margin-top:15px;
+
+}
+
+
+
+.transp_icon{
+
+	width:20%;
+
+	margin:auto;
+
+}
+
+
+
+.transp_icon img{ width:100%;}
+
+
+
+.transp_area{
+
+	margin-top:4%;
+
+	float:left;
+
+}
+
+
+
+.transp_area h3{
+
+	text-align:center;
+
+	color:#5577ba;
+
+	margin-top:10px;
+
+}
+
+
+
+.transp_area h3 a{
+
+	color:#5577ba;
+
+	text-decoration:none;
+
+}
+
+
+
+.transp_area p{
+
+	text-align:justify;
+
+	margin-top:10px;
+
+}
+
+
+
+.erp_service_sec{
+
+	width:100%;
+
+	margin-top:5%;
+
+	background:#1ea8e0;
+
+	padding:3% 0;
+
+}
+
+
+
+.erp_service_sec h2{
+
+	color:#fff;
+
+	text-align:center;
+
+	text-transform:uppercase;
+
+	width:100%;
+	font-size:36px;
+}
+
+
+
+.erp_service_area{
+
+	margin-top:2%;
+
+}
+
+
+
+.erp_service_area_right{
+
+	width:100%;
+
+	padding-left:25%;
+
+	display: inline-flex;
+
+}
+
+
+
+.erp_service_sec span{
+
+	font-size:24px;
+
+	color:#fff;
+
+	padding-left:20px;
+
+	line-height:50px;
+
+}
+
+
+
+.erp_service_sec span a{
+
+	color:#fff;
+
+	text-decoration:none;
+
+}
+
+
+
+
+
+.erp_service_sec img{
+
+	width:10%;
+
+	height:auto;
+
+}
+
+
+
+.benefit_escrw_sec{
+
+	width:100%;
+
+	margin-top:5%;
+
+}
+
+
+
+.benefit_escrw_sec p{
+
+	margin-top:2%;
+
+	line-height:22px;
+
+}
+
+
+
+.benefit_escrw_left p{
+
+	margin-top:4%;
+
+	line-height:22px;
+
+}
+
+
+
+.benefit_escrw_num{
+
+	width:10%;
+
+	background:#1ea8e0;
+
+	color:#fff;
+
+	text-align:center;
+
+	font-size:20px;
+
+	float:left;
+
+	padding:10px 0;
+
+	border-radius:150px;
+
+}
+
+
+
+.benefit_escrw_num_2{
+
+	margin-top:4%;
+
+}
+
+
+
+.benefit_escrw_right{
+
+	padding-left:3%;
+
+}
+
+
+
+.benefit_escrw_txt{
+
+	width:80%;
+
+	margin-left:8%;
+
+	float:left;
+
+}
+
+
+
+.benefit_escrw_txt h3{
+
+	color:#5577ba;
+	font-size:20px;
+}
+
+
+
+.erp_contact_sec{
+
+	width:100%;
+
+	margin-top:5%;
+
+	background:url(../image/contact_back.jpg);
+
+	background-size:cover;
+
+	position:relative;
+
+	padding:4% 0;
+
+}
+
+
+
+.erp_contact_sec::before{
+
+	width:100%;
+
+	content:"";
+
+	position:absolute;
+
+	top:0;
+
+	left:0;
+
+	background:rgba(54,53,53,.6);
+
+	height:100%;
+
+}
+
+
+
+.erp_contact_sec h2{
+
+	width:100%;
+
+	text-align:center;
+
+	color:#fff;
+
+	text-transform:uppercase;
+
+	z-index:9;
+	font-size:36px;
+}
+
+
+
+.erp_contact_area{
+
+	margin-top:4%;
+
+}
+
+
+
+.erp_contact_sec .erp_contact_area ul{
+
+	display:inline-block;
+
+	list-style:none;
+
+}
+
+
+
+.erp_contact_sec .erp_contact_area ul li{
+
+	display:inline-block;
+
+	color:#fff;
+
+	font-size:16px;
+
+	line-height:30px;
+
+}
+
+
+
+.erp_contact_sec .erp_contact_area ul li span{
+
+	padding-left:15px;
+
+}
+
+
+
+.erp_contact_txt{
+
+	width:100%;
+
+	margin-top:6%;
+
+	text-align:center;
+
+	font-size:18px;
+
+	color:#fff;
+
+	z-index:9;
+
+	font-weight:bold;
+
+}
+
+
+
+.erp_contact_txt span{
+
+	font-weight:normal;
+
+}
+
+
+
+.erp_contact_eml{
+
+	width:100%;
+
+	margin-top:2%;
+
+	text-align:center;
+
+	font-size:18px;
+
+	color:#fff;
+
+	z-index:9;
+
+	font-weight:bold;
+
+}
+
+
+
+.erp_contact_eml span{
+
+	font-weight:normal;
+
+	font-style:italic;
+
+}
+
+
+
+.erp_footer_nav{
+
+	width:100%;
+
+	background:#1ea8e0;
+
+	padding: 2% 0;
+
+}
+
+
+
+.erp_footer_nav ul{
+
+	display:inline-block;
+
+	list-style:none;
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+
+
+.erp_footer_nav ul li{
+
+	display:inline-block;
+
+	color:#fff;
+
+	border-right:1px solid #fff;
+
+	padding:0 15px;
+
+	font-size:14px;
+
+}
+
+
+
+.ftr_nav_last{
+
+	border:0 !important;
+
+}
+
+
+
+.erp_footer_nav ul li a{
+
+	color:#fff;
+
+    text-transform: initial;
+
+	text-decoration:none;
+
+}
+
+
+
+.erp_footer{
+
+	width:100%;
+
+	background:#363535;
+
+}
+
+
+
+.erp_footer p{
+
+	color:#fff;
+
+	line-height:45px;
+	margin:0;
+
+}
+
+
+
+.erp_footer p a{
+
+	color:#fff;
+
+}
+
+
+
+.erp_footer ul{
+
+	list-style:none;
+
+	display:inline-block;
+
+	text-align:right;
+
+	width:100%;
+
+	line-height:45px;
+	margin:0;
+
+}
+
+
+
+.erp_footer ul li{
+
+	display:inline-block;
+
+	color:#fff;
+
+	font-size:14px;
+
+	padding-left:10px;
+
+}
+
+
+
+.erp_footer ul li a{
+
+	color:#fff;
+
+	text-decoration:none;
+
+}
+
+
+
+.erp_footer ul li a:hover{
+
+	color:#1ea8e0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*****************
+
+   	=>register
+
+******************/
+
+
+
+.erp_breadcrumb{
+
+	width:100%;
+
+	background:#efeded;
+
+	margin-bottom:2%;
+
+}
+
+
+
+.erp_breadcrumb p{
+
+	font-size:24px;
+
+	width:100%;
+
+	line-height:60px;
+	margin:0;
+
+}
+
+
+
+.erp_breadcrumb p span{
+
+	font-size:14px;
+
+	float:right;
+}
+
+
+
+#erp_quote_frm p{
+
+	font-size:18px;
+
+	color:#5577ba;
+	width:100%;
+	margin:0;
+}
+
+
+
+#erp_country{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+	margin-bottom:15px;
+
+	/*float:left;*/
+
+}
+
+
+
+#erp_city{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+
+}
+
+
+
+#erp_zip{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+
+}
+
+
+
+.erp_quote_txt{
+
+	margin-top:20px;
+
+	/*float:left;*/
+
+	width:100%;
+
+}
+
+
+
+#erp_country_snd{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+	margin-bottom:15px;
+
+	/*float:left;*/
+
+}
+
+
+
+#erp_city_snd{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+}
+
+
+
+#erp_zip_snd{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+}
+
+
+
+#erp_date{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+	margin-bottom:15px;
+
+	/*float:left;*/
+
+}
+
+
+
+#erp_weight{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+}
+
+
+
+#erp_kgs{
+
+	width:10%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 5px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+
+	margin-left:3%;
+	margin-bottom:15px;
+}
+
+
+
+#erp_quote_eml{
+
+	width:95%;
+
+	border:1px solid #5577ba;
+
+	background:transparent;
+
+	height:30px;
+
+	color:#000;
+
+	padding:0 10px;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	/*float:left;*/
+	margin-right:58%;
+	margin-bottom:20px;
+}
+
+
+
+#erp_quote_btn{
+
+	width:20%;
+
+	border:1px solid #1ea8e0;
+
+	background:#1ea8e0;
+
+	line-height:20px;
+
+	color:#fff;
+
+	font-size:16px;
+
+	border-radius:3px;
+
+	margin-top:25px;
+
+	/*float:left;*/
+
+	margin-left:0;
+}
+
+
+
+#erp_shop_online{
+
+	width:3%;
+
+	margin-top:30px;
+
+	/*float:left;*/
+}
+
+
+
+#erp_quote_frm span{
+
+	/*float:left;*/
+
+	padding-left:10px;
+
+	margin-top:27px;
+
+	font-size:13px;
+
+	width:96%;
+	margin-right:26%;
+}
+
+
+
+#erp_apply{
+
+	width:3%;
+
+	margin-top:30px;
+
+	/*float:left;*/
+
+}
+
+
+
+.erp_divider{
+
+	width:100%;
+
+	margin-top:3%;
+
+	border-top:1px solid #efeded;
+
+	margin-bottom:3%;
+
+}
+
+
+
+.erp_opn_acc_sec{
+
+	width:100%;
+
+}
+
+
+
+.erp_opn_acc_sec h2{
+
+	text-align:center;
+
+	width:100%;
+	font-size:36px;
+}
+
+
+
+.erp_opn_acc_sec h3{
+
+	text-align:center;
+
+	width:100%;
+
+	margin-top:35px;
+
+	color:#5577ba;
+
+}
+
+
+
+.erp_opn_acc_sec p{
+
+	font-size:12px;
+
+	margin-top:10px;
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+
+
+.erp_opn_acc_frm{
+
+	width:100%;
+
+	margin-bottom:4%;
+
+}
+
+
+
+.erp_opn_acc_frm h3{
+
+	text-align:center;
+
+	width:100%;
+	font-size:20px;
+}
+
+
+
+#opn_acc_frm{
+
+	width:100%;
+
+}
+
+
+
+.opn_acc_frm_left{
+
+	width:50%;
+
+	float:left;
+
+}
+
+
+
+.opn_acc_frm_left h3{
+
+	font-size:18px;
+
+	color:#5577ba;
+
+	margin-top:26px;
+
+	width:100%;
+
+	float:left;
+	
+	text-align:left;
+
+}
+
+
+
+#open_acc_name{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+	background:transparent;
+}
+
+
+
+#open_acc_sur{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	margin-left:3%;
+	background:transparent;
+}
+
+
+
+#open_acc_adr{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+	background:transparent;
+}
+
+
+
+#open_acc_cty{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+
+	margin-left:3%;
+	background:transparent;
+}
+
+
+
+#open_acc_count{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+	background:transparent;
+}
+
+
+
+#open_acc_post{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+
+	margin-left:3%;
+	background:transparent;
+}
+
+
+
+#open_buyer_acc{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	margin-right:62%;
+	background:transparent;
+}
+
+
+
+.opn_acc_frm_left span{
+
+	width:auto;
+
+	float:left;
+
+	font-size:14px;
+
+	color:#363535;
+
+	margin-top:25px;
+
+}
+
+
+
+#erc_acc_opt{
+
+	width:25%;
+
+	float:left;
+
+	border:1px solid #5577ba;
+
+	color:#000;
+
+	padding:0 10px;
+
+	height:30px;
+
+	margin-left:5%;
+
+	border-radius:3px;
+
+	margin-top:20px;
+
+	margin-right:60%;
+	background:transparent;
+}
+
+
+
+#opn_acc_phn{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+	background:transparent;
+}
+
+
+
+#opn_acc_eml{
+
+	width:45%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	margin-left:3%;
+	background:transparent;
+}
+
+
+
+#opn_acc_eml_txt{
+
+	font-size:12px;
+
+	color:#363535;
+
+	margin-top:15px;
+	
+	float: left;
+	margin-bottom:0;
+}
+
+
+
+#opn_acc_eml_txt a{
+
+	color:#5577ba;
+
+}
+
+
+
+#opn_acc_login_eml{
+
+	width:50%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:10px;
+
+	margin-right:55%;
+	background:transparent;
+}
+
+
+
+#opn_acc_passw{
+
+	width:50%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+
+	margin-right:55%;
+	background:transparent;
+}
+
+
+
+#opn_acc_rst_passw{
+
+	width:50%;
+
+	border:1px solid #5577ba;
+
+	float:left;
+
+	height:30px;
+
+	padding:0 10px;
+
+	color:#000;
+
+	border-radius:3px;
+
+	margin-top:18px;
+
+	margin-right:55%;
+	background:transparent;
+}
+
+
+
+#erp_accpt_tnc{
+
+	width:2%;
+
+	margin-top:40px;
+
+	/*float:left;*/
+
+}
+
+
+
+#accpt_tnc{
+
+	padding-left:10px;
+
+	font-size:12px;
+
+	margin-top:40px;
+
+}
+
+
+
+#accpt_tnc a{
+
+	color:#5577ba;
+
+}
+
+
+
+#erp_reg_sub{
+
+	width:14%;
+
+	background:#1ea8e0;
+
+	font-size:14px;
+
+	color:#fff;
+
+	/*float:left;*/
+
+	border:0;
+
+	border-radius:3px;
+
+	line-height:20px;
+
+	margin-top:20px;
+	margin-left:50%;
+}
+
+
+
+
+/*--------contact-------*/
+
+.erp_cntct_frm_sec{
+	width:100%;
+}
+
+.erp_cntct_frm_sec h2{
+	width:100%;
+	text-align:center;
+}
+
+.erp_cntct_frm_sec p{
+	text-align:center;
+	margin-top:10px;
+	width:100%;
+	margin-bottom:15px;
+}
+
+#cntct_frm p{
+	font-size:18px;
+	color:#5577ba;
+	margin-top:25px;
+	width:50%;
+	float:left;
+	text-align:left;
+	margin-bottom:0;
+}
+
+#cntct_frm{
+	width:100%;
+}
+
+#erp_cntct_name{
+	width:45%;
+	background:transparent;
+	border:1px solid #5577ba;
+	height:40px;
+	border-radius:3px;
+	margin-top:10px;
+	float:left;
+	padding:0 15px;
+}
+
+#erp_cntct_eml{
+	width:45%;
+	background:transparent;
+	border:1px solid #5577ba;
+	height:40px;
+	border-radius:3px;
+	margin-top:10px;
+	margin-left:10%;
+	float:left;
+	padding:0 15px;
+}
+
+#erp_cntct_subj{
+	width:100%;
+	background:transparent;
+	border:1px solid #5577ba;
+	height:40px;
+	border-radius:3px;
+	margin-top:10px;
+	/*float:left;*/
+	padding:0 15px;
+}
+
+#erp_cntct_msg{
+	width:100%;
+	background:transparent;
+	border:1px solid #5577ba;
+	height:200px;
+	border-radius:3px;
+	margin-top:10px;
+	float:left;
+	padding:10px 15px;
+}
+
+#erp_cntct_snd{
+	width:13%;
+	background:#1ea8e0;
+	height:40px;
+	border-radius:3px;
+	color:#fff;
+	font-size:14px;
+	margin-top:30px;
+	border:0;
+}
+
+.erp_cntct_info_sec{
+	width:100%;
+	margin-bottom:4%;
+}
+
+.erp_cntct_info_sec h2{
+	width:100%;
+	text-align:center;
+}
+
+.erp_cntct_adr{
+	margin-top:4%;
+}
+
+.erp_cntct_info_sec ul{
+	list-style:none;
+	display:inline-block;
+}
+
+.erp_cntct_info_sec ul li{
+	display:inline-block;
+	color:#1ea8e0;
+	font-size:16px;
+}
+
+.erp_cntct_info_sec ul li span{
+	padding-left:15px;
+	color:#363535;
+}
+
+.erp_cntct_num{
+	width:100%;
+	text-align:center;
+	margin-top:6%;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.erp_cntct_num span{
+	font-weight:normal;
+}
+
+.erp_cntct_eml{
+	width:100%;
+	text-align:center;
+	margin-top:1%;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.erp_cntct_eml span{
+	font-weight:normal;
+	font-style:italic;
+}
+
+
+/*---------service---------*/
+
+.erp_servc_dtls_sec{
+	width:100%;
+	background:#1ea8e0;
+	padding:3% 0;
+	margin-top:5%;
+}
+
+.erp_servc_dtls_sec h2{
+	width:100%;
+	text-align:center;
+	text-transform:uppercase;
+	color:#fff;
+}
+
+.servc_dtls_icn{
+	width:6%;
+	float:left;
+	margin-top:3%;
+}
+
+.servc_dtls_icn img{
+	width:80%;
+}
+
+.servc_dtls_txt{
+	width:90%;
+	float:left;
+	margin-top:3%;
+	margin-left:2%;
+	line-height:20px;
+}
+
+.erp_servc_dtls_sec h3{
+	color:#fff;
+}
+
+.erp_servc_dtls_sec p{
+	color:#fff;
+	margin-top:10px;
+	text-align:justify;
+}
+
+.erp_3rd_party_sec{
+	width:100%;
+	margin-top:3%;
+}
+
+.erp_3rd_party_sec p{
+	margin-top:12px;
+	text-align:justify;
+	line-height:20px;
+}
+
+.erp_servc_ltl{
+	width:100%;
+}
+
+.erp_servc_ltl h3{
+	text-align:center;
+	width:100%;
+	margin-bottom:0;
+	font-size:20px;
+}
+
+.erp_servc_ltl h2{
+	text-align:center;
+	width:100%;
+	margin-top:10px;
+	margin-bottom:15px;
+	font-size:36px;
+}
+
+.erp_servc_ltl p{
+	margin-top:15px;
+	width:100%;
+	margin-bottom:0;
+}
+
+.erp_servc_ltl ul{
+	width:100%;
+	margin-top:10px;
+	padding-left:2%;
+	margin-bottom:0;
+}
+
+.erp_servc_ltl ul li{
+	font-size:14px;
+	margin-top:10px;
+}
+
+.erp_servc_tl_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.erp_servc_tl_sec h2{
+	width:100%;
+	text-align:center;
+	font-size:36px;
+	margin-bottom:0;
+}
+
+.erp_servc_tl_sec p{
+	width:100%;
+	text-align:center;
+	margin-top:15px;
+	font-size:14px;
+	margin-bottom:0;
+}
+
+.erp_air_frght_sec{
+	width:100%;
+	margin-top:5%;
+}
+
+.erp_air_frght_sec h2{
+	width:100%;
+	text-align:center;
+	font-size:36px;
+	margin-bottom:0;
+}
+
+.erp_air_frght_sec p{
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	margin-top:10px;
+	margin-bottom:0;
+}
+
+.erp_air_fright_opt{
+	width:100%;
+	margin-top:2%;
+}
+
+.erp_air_fright_opt p{
+	font-size:12px;
+	text-align:justify;
+}
+
+.erp_fright_ship_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 2%;
+}
+
+.erp_fright_ship_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:15px;
+	font-size:36px;
+}
+
+.erp_fright_ship_sec p{
+	width:100%;
+	margin-top:15px;
+	line-height:20px;
+	margin-bottom:0;
+}
+
+.erp_rail_frght_sec{
+	width:100%;
+	margin-top:5%;
+	margin-bottom:4%;
+}
+
+.erp_rail_frght_sec h2{
+	width:100%;
+	text-align:center;
+	font-size:36px;
+}
+
+.erp_rail_frght_sec p{
+	width:100%;
+	margin-top:0;
+	line-height:20px;
+	text-align:justify;
+	margin-bottom:0;
+}
+
+
+/*---------about--------*/
+
+.erp_about_sec{
+	width:100%;
+}
+
+.erp_about_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+	font-size:36px;
+}
+
+.erp_about_sec p{
+	margin-top:15px;
+	text-align:justify;
+	margin-bottom:0;
+}
+
+.erp_abt_trnsp_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.abt_trnsp_icon{
+	width:30%;
+	margin:auto;
+}
+
+.abt_trnsp_icon img{
+	width:100%;
+}
+
+.erp_abt_trnsp_sec h3{
+	text-align:center;
+	color:#5577ba;
+	margin-top:10px;
+}
+
+.erp_abt_trnsp_sec p{
+	text-align:justify;
+	margin-top:15px;
+}
+
+.erp_abt_award_sec{
+	width:100%;
+	margin-top:5%;
+	margin-bottom:4%;
+}
+
+.erp_abt_award_sec h2{
+	width:100%;
+	text-align:center;
+	font-size:36px;
+}
+
+.erp_abt_award_img{
+	width:35%;
+	float:left;
+	margin-top:6%;
+}
+
+.erp_abt_award_img img{
+	width:100%;
+}
+
+.erp_abt_award_txt{
+	width:58%;
+	margin-left:5%;
+	float:left;
+	color:#5577ba;
+	font-size:18px;
+	margin-top:14%;
+}
+
+
+/*--------how it works--------*/
+
+.erp_cmplt_escrw_sec{
+	width:100%;
+}
+
+.erp_cmplt_escrw_sec p{
+	margin-top:15px;
+	line-height:20px;
+}
+
+.erp_benefit_escrw_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.erp_benefit_escrw_sec h2{
+	width:100%;
+	text-align:center;
+}
+
+.erp_benefit_escrw_sec h3{
+	width:100%;
+	margin-top:3%;
+}
+
+.erp_benefit_escrw_sec p{
+	margin-top:15px;
+	line-height:20px;
+}
+
+.escrw_step_sec{
+	width:100%;
+	margin-top:5%;
+	margin-bottom:4%;
+}
+
+.escrw_step_sec h3{
+	width:100%;
+}
+
+.escrw_step_sec p{
+	margin-top:2%;
+	line-height:20px;
+	text-align:justify;
+}
+
+.escrw_step_sub_point{
+	padding-left:5%;
+	margin-top:2%;
+	width:100%;
+}
+
+.escrw_step_sub_point h4 span{
+	padding-left:15px;
+	padding-right:10px;
+}
+
+.escrw_step_sec p span{
+	padding-left:15px;
+	padding-right:10px;
+	font-size:16px;
+}
+
+.terms_of_use_sec{
+	width:100%;
+}
+
+.terms_of_use_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.terms_of_use_sec p{
+	margin-top:15px;
+	line-height:25px;
+	text-align:justify;
+}
+
+.terms_of_use_sec ul{
+	list-style:none;
+	padding-left:5%;
+	width:100%;
+}
+
+.terms_of_use_sec ul li{
+	font-size:14px;
+	color:#5577ba;
+	margin-top:15px;
+}
+
+.terms_of_use_sec ul li span{
+	padding-right:10px;
+	color:#363535;
+}
+
+.terms_of_use_sec ul li a{
+	color:#5577ba;
+	text-decoration:none;
+}
+
+.erp_terms_def_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.erp_terms_def_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.erp_terms_def_sec p{
+	margin-top:20px;
+	line-height:20px;
+	width:100%;
+}
+
+.erp_terms_def_sec p span{
+	font-size:14px;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+.use_of_erp_sec{
+	width:100%;
+	margin-top:5%;
+}
+
+.use_of_erp_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.use_of_erp_sec p{
+	margin-top:15px;
+	line-height:25px;
+	text-align:justify;
+}
+
+.erp_priv_policy_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.erp_priv_policy_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.erp_priv_policy_sec p{
+	margin-top:15px;
+	line-height:25px;
+	text-align:justify;
+}
+
+.termin_of_use_sec{
+	width:100%;
+	margin-top:5%;
+}
+
+.termin_of_use_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.termin_of_use_sec p{
+	margin-top:15px;
+	line-height:25px;
+	text-align:justify;
+}
+
+.disc_of_warr_sec{
+	width:100%;
+	margin-top:5%;
+	background:#efeded;
+	padding:3% 0;
+}
+
+.disc_of_warr_sec h2{
+	width:100%;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.disc_of_warr_sec p{
+	margin-top:15px;
+	line-height:25px;
+	text-align:justify;
+}
+
+
+section.erp_transport_sec p.erp_sending_heading{ width:100%; margin-bottom:0; margin-top:0;}
+
+section.erp_transport_sec p{ width:33%; float:left; margin-bottom:10px;}
+
+span.wpcf7-not-valid-tip{ width:95%;}
+
+/*div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{ position:absolute; top:86%; left:53%;}*/
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{ width: 50%; text-align: center;}
+
+    
+
+.sending-textarea{ width:100%; float:left;}
+
+.sending-textarea textarea{ width:98%; margin-bottom:3%; border: 1px solid #5577ba; border-radius: 3px; margin-top: 15px; background-color: #0000; font-size:13px;}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing{ border:1px solid #1ea8e0 !important;}
+
+div.wpcf7-response-output{ font-weight:normal; margin: 4.5em 0.5em 1em !important;}
+
+form#search_box{ margin:0;}
+
+li#menu-item-120{ border-right:0;}
+
+.sending-btn-submit{ width:100%; float:left;}
+
+section.erp_transport_sec p:nth-child(2){ float:none;}
+
+.erp_transport_sec h3{ margin-top:15px; margin-bottom:5px;}
+
+section#erp_home_service h3{ font-size:20px; font-weight:normal;}
+
+section.benefit_escrw_sec h2{ font-size:36px;}
+
+
+.erp_cntct_num span a{ color:#1ea8e0 !important;}
+
+.erp_cntct_eml span a{ color:#1ea8e0 !important;}
+
+p,h1,h2,h3,h4,h5{ margin:0; padding:0;}
+
+div#wpcf7-f255-o1 p:nth-child(17){ width:100%;}
+
+div#wpcf7-f255-o1 p:nth-child(18){ width:100%;}
+
+span.wpcf7-list-item-label{ padding-left:10px;}
+
+
+/*----------login----------*/
+
+div#login_form{ margin:auto; width:38%; padding:3%; box-shadow:2px 2px 20px #e2e0e0; margin-bottom:5%; margin-top:3%;}
+
+div#tab1_login h3{ width:100%; text-align:center; font-size:20px;}
+
+div#tab1_login p{ text-align:center;}
+
+.username label{ width:100%;}
+
+input#user_login{ width:100%; background:transparent; border:1px solid #5577ba; border-radius:6px; height:40px; padding:0 15px; color:#000; font-size:14px;}
+
+.password label{ width:100%; margin-top:22px;}
+
+input#user_pass{ width:100%; background:transparent; border:1px solid #5577ba; border-radius:6px; height:40px; height:40px; padding:0 15px; color:#000; font-size:14px;}
+
+.rememberme{ margin-top:22px;}
+
+input.user-submit{ background:#1ea8e0 !important; color:#fff !important; font-size:16px; border-radius:6px !important; margin-top:16px; width:100%; padding:10px 0 !important; text-transform:uppercase;}
+
+.sidebox h3{ text-align:center; margin-bottom:18px; font-size:20px;}
+
+.usericon{ width:17%; margin:auto;}
+
+.userinfo{ margin-top:20px;}
+
+.userinfo p{ text-align:center; margin-bottom:0; margin-top:8px;}
+
+.userinfo p a{ color:#5577ba;}
+
+.forgot_password{ text-align:center; font-size:12px;}
+
+.forgot_password a{ color:#5577ba; text-decoration:underline;}
+
+.login_error_text{ border:1px solid #da0a3e !important;}
+
+
+/*----------forgot password----------*/
+
+div#forget_password{ width:38%; margin:auto; margin-top:3%; margin-bottom:2%;}
+
+div#forget_password h3{ text-align:center; font-size:20px;}
+
+div#forget_password p{ text-align:center;} 
+
+.login_fields p{ margin-top:22px; border:1px solid #3C0; padding:5px 0;}
+
+
+/*--------my account-------*/
+
+.my_acc_dtl_sec{ width:100%;}
+
+.my_acc_user_dtl{ width:100%; background:transparent; border:1px solid #5577ba; margin-top:25px;}
+
+.my_acc_user_dtl legend{ background:transparent; width:auto; margin:0; color:#363535; padding-bottom:0; padding-top:0;}
+
+.my_acc_user_dtl span{ color:#363535; padding-left:10px;}
+
+.my_acc_user_dtl p{ color:#5577ba; font-size:14px; margin-bottom:0; margin-top:10px; width:100% !important;}
+
+.my_acc_sidebar{ margin-top:25px; margin-bottom:40px;}
+
+th.myacct_details_heading { width: 35%;}
+
+fieldset.my_acc_user_dtl table th p{ margin:0;}
+
+fieldset.my_acc_user_dtl table th{ background:transparent;}
+
+table.myacct_details{ margin-bottom:0;}
+
+fieldset.my_acc_user_dtl table td{ color:#000;}
+
+.my_acct_error{ margin-top:25px;}
+
+.my_acct_error p{ width:100% !important; font-size:17px; line-height:38px;}
+
+.my_acct_error p a{ color:#5577ba;}
+
+
+/*--------search--------*/
+
+div#primary{ background-color:#fff;}
+
+h1.page-title{ margin-bottom:0; margin-top:15px;}
+
+h2.entry-title{ text-align:center; margin-bottom:0;}
+
+.erp_3rd_party_sec h3{ margin-bottom:0;}
+
+.erp_3rd_party_sec p{ margin-bottom:0;}
+
+
+/*-------not found-------*/
+
+.no-results.not-found{ margin:auto; width:50%; text-align:center;}
+
+.page-content{ margin-top:10px;}
+
+form.search-form{ margin-top:25px;}
+
+form.search-form label{ width:65%;}
+
+input.search-field{ width:100%; background-color:transparent !important; border:1px solid #5577ba !important; border-radius:5px; height:40px; padding:0 15px !important; font-size:14px; color:#000 !important;}
+
+input.search-submit{ width:15%; height:40px; border-radius:5px !important; background-color:#1ea8e0 !important; color:#fff !important; font-size:14px;}
+
+
+/*----------404----------*/
+
+.error-404.not-found{ width:55%; margin:auto; text-align:center;}
+
+.error-404.not-found p{ margin-top:10px;}
+
+

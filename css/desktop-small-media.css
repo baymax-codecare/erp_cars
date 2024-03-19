@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{ font-size:30px;}
+
+#sel_language{ font-size:10px; height:20px; padding:0 3px;}
+
+#erp_search{ font-size:10px; height:20px; padding:0 3px; width:71%;}
+
+.erp_search_btn{ font-size:12px; padding:0; height:20px;}
+
+.erp_header ul{ padding: 0;}
+
+.erp_header{ padding:7px 15px;}
+
+.erp_header ul li{ font-size:10px;}
+
+.erp_nav_sec{ padding:8px 15px;}
+
+.erp_nav_sec img{ width:40%;}
+
+.bg-light{ padding-bottom:0; padding-left:0; padding-top:10px;}
+
+.navbar-toggler-icon{ width:20px; height:20px;}
+
+.navbar-toggler{ padding:2px 6px; margin-left:77%;}
+
+.navbar-nav{ padding:10px 0; font-size:10px; position:fixed; background:#ccc; width:32%;}
+
+.navbar-expand-lg .navbar-nav .nav-link{ padding-left:0;}
+
+.erp_bnr_sec p{ font-size:22px; padding:0 15px; margin-bottom:0;}
+
+.track_btn{ width:25%;}
+
+.erp_service_sec{ padding:6% 15px; margin-top:7%;}
+
+.erp_service_sec span{ font-size:16px; line-height:42px;}
+
+.erp_service_area_right{ padding-left:0;}
+
+.erp_service_area{ padding-left:35%; margin-top:4%;}
+
+.erp_service_sec h2{ margin-bottom:10px;}
+
+.benefit_escrw_sec{ margin-top:7%; padding:0 15px;}
+
+.benefit_escrw_left p{ text-align:justify;}
+
+.benefit_escrw_num{ width:10%; margin-top:5%;}
+
+.benefit_escrw_txt{ width:77%; margin-top:5%; margin-left:6%;}
+
+.benefit_escrw_sec p{ text-align:justify;}
+
+.erp_contact_sec{ margin-top:7%; padding:6% 15px;}
+
+.erp_contact_sec .erp_contact_area ul li{ font-size:14px; line-height:25px;}
+
+.erp_contact_txt{ font-size:15px;}
+
+.erp_contact_eml{ font-size:15px;}
+
+.erp_footer_nav ul li{ font-size:11px;}
+
+.erp_footer p{ font-size:10px; line-height:20px; text-align:center;}
+
+.erp_footer ul{ text-align:center; line-height:inherit; margin-top:15px;}
+
+.erp_footer{ padding:20px 15px;}
+
+
+/*-------about-------*/
+
+form#erp_quote_frm{ margin-top:5%;}
+
+#erp_quote_frm p{ font-size:20px;}
+
+#erp_country{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_city{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_zip{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_country_snd{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_city_snd{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_zip_snd{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_date{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_weight{ padding:0 8px; height:30px; font-size:11px;}
+
+#erp_kgs{ padding:0 8px; height:30px; font-size:11px; width:14%;}
+
+#erp_quote_eml{ padding:0 8px; height:30px; font-size:11px; margin-bottom:20px;}
+
+#erp_quote_btn{ width:30%; line-height:20px;}
+
+.erp_abt_trnsp_sec p{ line-height:20px;}
+
+.erp_abt_award_txt{ font-size:18px;}
+
+.erp_divider{ margin-top:6%; margin-bottom:6%; border:1px solid #efeded;}
+
+.erp_breadcrumb p span{ font-size:16px;}
+
+.erp_abt_trnsp_sec{ margin-top:10%; padding:5% 0;}
+
+.erp_abt_award_sec{ margin-top:10%; margin-bottom:8%;}
+
+.abt_trnsp_icon{ width:12%; margin-top:3%;}
+
+
+.wpcf7-form-control-wrap{ width:100%;}
+
+#erp_shop_online{ width:100%;}
+
+span.wpcf7-list-item{ width:100%;}
+
+span.wpcf7-list-item label{ width:100%;}
+
+input[type="checkbox"]{ margin-right:2%;}
+
+div#wpcf7-f255-o1 p:nth-child(17){ width:100%;}
+
+div#wpcf7-f255-o1 p:nth-child(18){ width:100%;}
+
+.erp_footer_nav ul{ position:static; background:transparent; margin:0; padding:0;}
+
+
+/*---------register--------*/
+
+.opn_acc_frm_left{ width:100%;}
+
+#accpt_tnc{ margin-right:50%;}
+
+#erp_reg_sub{ width:28%; margin-top:25px; height:40px; margin-left:0;}
+
+#open_acc_name{ width:45%; padding:0 10px; height:40px;}
+
+#open_acc_sur{ width:45%; padding:0 10px; height:40px;}
+
+#open_acc_adr{ width:45%; padding:0 10px; height:40px;}
+
+#open_acc_cty{ width:45%; padding:0 10px; height:40px;}
+
+#open_acc_count{ width:45%; padding:0 10px; height:40px;}
+
+#open_acc_post{ width:45%; padding:0 10px; height:40px;}
+
+#open_buyer_acc{ width:45%; padding:0 10px; height:40px;}
+
+#opn_acc_phn{ width:45%; padding:0 10px; height:40px;}
+
+#opn_acc_eml{ width:45%; padding:0 10px; height:40px;}
+
+#opn_acc_login_eml{ width:55%; padding:0 10px; height:40px;}
+
+#opn_acc_passw{ width:55%; padding:0 10px; height:40px;}
+
+#opn_acc_passw:focus{ width:100%;}
+
+#opn_acc_rst_passw{ width:55%; padding:0 10px; height:40px;}
+
+
+/*--------contact-------*/
+
+#erp_cntct_snd{ width:25%;}
+
+.erp_cntct_info_sec ul{ padding-left:5%; margin-bottom:0;}
+
+#erp_cntct_name{ width:100%;}
+
+#erp_cntct_eml{ width:100%; margin-left:0;}
+
+.erp_cntct_name_area{ width:100%;}
+
+.erp_cntct_eml_area{ width:100%; margin-left:0;}
+
+.erp_cntct_name_area p{ width:100%;}
+
+.erp_cntct_eml_area p{ width:100%;}
+
+
+.erp_cntct_frm_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_cntct_frm_sec p{ margin-bottom:10px;}
+
+.erp_cntct_info_sec h2{ font-size:32px; margin-bottom:0;}
+
+
+/*-------service-------*/
+
+.erp_servc_dtls_sec{ padding:6% 15px; margin-top:10%;}
+
+.erp_servc_tl_sec{ padding:6% 15px; margin-top:10%;}
+
+.erp_fright_ship_sec{ padding:6% 15px; margin-top:10%;}
+
+.erp_rail_frght_sec{ margin-bottom:8%; padding:0 15px; margin-top:10%;}
+
+.erp_breadcrumb{ padding:0 15px;}
+
+.erp_breadcrumb p{ font-size:18px; line-height:56px;}
+
+.servc_dtls_icn{ width:10%; margin-top:7%;}
+
+.servc_dtls_icn img{ width:100%;}
+
+.servc_dtls_txt{ width:85%; margin-left:5%; margin-top:7%;}
+
+.erp_3rd_party_sec{ margin-top:5%; padding:0 15px;}
+
+.abt_trnsp_icon{ width:12%; margin-top:4%;}
+
+.erp_servc_ltl{ padding:0 15px;}
+
+.erp_servc_ltl ul{ padding-left:10%;}
+
+.erp_air_frght_sec{ margin-top:10%; padding:0 15px;}
+
+.erp_footer_nav{ padding:3% 15px;}
+
+.erp_fright_ship_sec p{ text-align:justify;}
+
+
+.erp_servc_dtls_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_servc_dtls_sec p{ margin-bottom:0;}
+
+.erp_servc_ltl h2{ font-size:36px; margin-bottom:0;}
+
+.erp_servc_ltl p{ margin-bottom:0;}
+
+.erp_servc_tl_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_servc_tl_sec p{ margin-bottom:0;}
+
+.erp_air_frght_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_air_frght_sec p{ margin-bottom:0;}
+
+.erp_fright_ship_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_fright_ship_sec p{ margin-bottom:0;}
+
+.erp_rail_frght_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_rail_frght_sec p{ margin-bottom:0; margin-top:15px;}
+
+.erp_servc_dtls_sec{ margin-top:5%; padding:3% 0;}
+
+.erp_servc_ltl{ margin-top:5%;}
+
+.erp_servc_tl_sec{ margin-top:5%; padding:4% 15px;}
+
+.erp_air_frght_sec{ margin-top:5%;}
+
+.erp_fright_ship_sec{ margin-top:5%; padding:4% 15px;}
+
+.erp_rail_frght_sec{ margin-top:5%; margin-bottom:3%;}
+
+
+/*---------how it works---------*/
+
+.erp_cmplt_escrw_sec{ padding:0 15px;}
+
+.erp_cmplt_escrw_sec p{ text-align:justify;}
+
+.erp_benefit_escrw_sec{ margin-top:5%; padding:4% 15px;}
+
+.erp_benefit_escrw_sec h3{ margin-top:3%; border-top:0; margin-bottom:0;}
+
+.escrw_step_sec{ margin-top:5%; padding:0 15px;}
+
+.escrw_step_sec p{ margin-top:2%; margin-bottom:0;}
+
+.escrw_step_sub_point{ margin-top:4%;}
+
+
+.erp_benefit_escrw_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_benefit_escrw_sec p{ margin-bottom:0;}
+
+.escrw_step_sec h3{ margin-bottom:0;}
+
+
+/*---------terms----------*/
+
+.terms_of_use_sec{ padding:0 15px;}
+
+.erp_terms_def_sec{ padding:8% 15px; margin-top:10%;}
+
+.use_of_erp_sec{ margin-top:10%; padding:0 15px;}
+
+.erp_priv_policy_sec{ margin-top:10%; padding:8% 15px;}
+
+.erp_priv_policy_sec h2{ margin-bottom:0; font-size:36px;}
+
+.use_of_erp_sec h2{ margin-bottom:0; font-size:36px;}
+
+.termin_of_use_sec{ margin-top:10%; padding:0 15px;}
+
+.termin_of_use_sec h2{ margin-bottom:0; font-size:36px;}
+
+.disc_of_warr_sec{ margin-top:10%; padding:8% 15px;}
+
+.disc_of_warr_sec h2{ margin-bottom:0; font-size:36px;}
+
+.terms_of_use_sec h2{ margin-bottom:0; font-size:36px;}
+
+.erp_terms_def_sec h2{ margin-bottom:0; font-size:36px;}
+
+
+.terms_of_use_sec p{ margin-bottom:0;}
+
+.terms_of_use_sec ul{ margin-bottom:0;}
+
+.erp_terms_def_sec p{ margin-bottom:0;}
+
+.use_of_erp_sec p{ margin-bottom:0;}
+
+.erp_priv_policy_sec p{ margin-bottom:0;}
+
+.termin_of_use_sec p{ margin-bottom:0;}
+
+.disc_of_warr_sec p{ margin-bottom:0;}
+
+
+
+
+
+
+.erp_nav_menu{ width:100%;}
+
+.navbar-nav li{ line-height:24px;}
+
+
+/*---------login---------*/
+
+div#login_form{ width:90%; padding:6%; margin-top:6%; margin-bottom:8%;}
+
+input#user_login{ height:32px;}
+
+input#user_pass{ height:32px;}
+
+.password label{ margin-top:18px;}
+
+.rememberme label{ width:100%;}
+
+input.user-submit{ font-size:14px; padding:6px 0 !important;}
+
+
+/*---------my account---------*/
+
+.my_acct_error p{ float:none !important; margin-bottom:0 !important;}
+
+.my_acc_sidebar{ margin-bottom:0;}
+
+.my_acct_error{ margin-top:25px; margin-bottom:20px;}
+
+
+/*--------search--------*/
+
+h2.entry-title{ margin-top:15px;}
+
+
+/*----------not found----------*/
+
+.no-results.not-found{ width:90%;}
+
+.no-results.not-found h1{ text-align:center;}
+
+input.search-field{ height:40px; padding:0 15px !important;}
+
+input.search-submit{ width:18%; height:40px; padding:0 !important;}
+
+form.search-form{ margin-top:35px;}
+
+form.search-form label{ width:60%;}
+
+
+/*---------404---------*/
+
+.error-404.not-found{ width:90%;}
+
+
+

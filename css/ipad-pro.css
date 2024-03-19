@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-size:14px;}
+
+h2{ font-size:36px;}
+
+#sel_language{ font-size:10px; height:20px; padding:0 3px;}
+
+#erp_search{ font-size:10px; height:20px; padding:0 3px; width:75%;}
+
+.erp_search_btn{ font-size:12px; padding:0; height:20px; width:22%;}
+
+.erp_header ul{ padding: 0;}
+
+.erp_header{ padding:7px 0;}
+
+.erp_header ul li{ font-size:14px;}
+
+.erp_nav_sec{ padding:8px 15px;}
+
+.erp_nav_sec img{ width:55%;}
+
+.bg-light{ padding-bottom:0; padding-left:0; padding-top:12px;}
+
+li.nav-item{ border:0;}
+
+.navbar-toggler-icon{ width:25px; height:25px;}
+
+.navbar-toggler{ padding:2px 6px; margin-left:77%;}
+
+.navbar-nav{ font-size:16px; padding-left:13%; background:transparent; position:static; width:auto;}
+
+.navbar-expand-lg .navbar-nav .nav-link{ padding:0 15px;}
+
+.erp_bnr_sec p{ font-size:46px; padding:0 15px;}
+
+.erp_sidebar{ padding:15px 30px;}
+
+.transp_area p{ font-size:13px; line-height:22px;}
+
+.track_btn{ width:50%;}
+
+.transp_area{ margin-top:6%; height:120px;}
+
+.erp_service_sec{ padding:4% 15px; margin-top:7%;}
+
+.erp_service_sec span{ font-size:20px; line-height:42px;}
+
+.erp_service_area_right{ padding-left:0;}
+
+.erp_service_area{ padding:0 15px; margin-top:4%; padding-left:10%;}
+
+.transp_icon{ width:14%;}
+
+.erp_service_sec h2{ margin-bottom:10px;}
+
+.benefit_escrw_sec{ margin-top:7%; padding:0 15px;}
+
+.benefit_escrw_left p{ text-align:justify;}
+
+.benefit_escrw_num{ width:11%;;}
+
+.benefit_escrw_num_2{ margin-top:5%;}
+
+.benefit_escrw_txt{ width:83%; margin-left:6%;}
+
+.benefit_escrw_sec p{ text-align:justify; margin-top:2%; line-height:27px;}
+
+.erp_contact_sec{ margin-top:7%; padding:4% 15px;}
+
+.erp_contact_sec .erp_contact_area ul{ padding-left:16%; margin-bottom:0;}
+
+.erp_contact_sec .erp_contact_area ul li{ font-size:18px; line-height:34px;}
+
+.erp_contact_txt{ font-size:18px; margin-top:3%;}
+
+.erp_contact_eml{ font-size:18px; margin-top:1%;}
+
+.erp_footer_nav ul li{ font-size:14px;}
+
+.erp_footer p{ font-size:13px; line-height:20px; text-align:left;}
+
+.erp_footer ul{ text-align:right; line-height:inherit; margin-top:0;}
+
+.erp_footer{ padding:20px 0;}
+
+
+/*-------about-------*/
+
+form#erp_quote_frm{ margin-top:0;}
+
+#erp_quote_frm p{ font-size:20px;}
+
+#erp_country{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_city{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_zip{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_country_snd{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_city_snd{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_zip_snd{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_date{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_weight{ padding:0 10px; height:35px; font-size:14px;}
+
+#erp_kgs{ padding:0 10px; height:35px; font-size:14px; width:12%;}
+
+#erp_quote_eml{ padding:0 10px; height:35px; font-size:14px; margin-bottom:20px;}
+
+#erp_quote_btn{ width:18%; line-height:20px; font-size:14px;}
+
+.erp_abt_trnsp_sec p{ line-height:20px;}
+
+.erp_abt_award_txt{ font-size:18px; margin-top:13%;}
+
+.erp_divider{ margin-top:4%; margin-bottom:4%; border:1px solid #efeded;}
+
+.erp_breadcrumb p span{ font-size:16px;}
+
+.abt_trnsp_icon{ width:25%; margin-top:3%;}
+
+.erp_abt_trnsp_sec{ margin-top:5%; padding:2% 0;}
+
+.erp_abt_award_sec{ margin-top:5%; margin-bottom:5%;}
+
+
+div#wpcf7-f255-o1 p:nth-child(17){ width:100%;}
+
+div#wpcf7-f255-o1 p:nth-child(18){ width:100%;}
+
+.wpcf7-form-control-wrap{ width:100%;}
+
+#erp_shop_online{ width:100%;}
+
+span.wpcf7-list-item{ width:100%;}
+
+span.wpcf7-list-item label{ width:100%;}
+
+input[type="checkbox"]{ margin-right:2%;}
+
+.erp_abt_award_sec h2{ margin-bottom:0;}
+
+.erp_about_sec h2{ margin-bottom:0;}
+
+
+/*---------register--------*/
+
+.opn_acc_frm_left{ width:50%;}
+
+#accpt_tnc{ margin-right:28%; font-size:14px; margin-top:38px;}
+
+#erp_kgs{ width:15%;}
+
+#erp_reg_sub{ width:20%; margin-top:30px; height:42px; font-size:16px; margin-right:27%;}
+
+#open_acc_name{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_sur{ width:45%; padding:0 10px; height:40px; font-size:14px; margin-left:3%;}
+
+#open_acc_adr{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_cty{ width:45%; padding:0 10px; height:40px; font-size:14px; margin-left:3%;}
+
+#open_acc_count{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_post{ width:45%; padding:0 10px; height:40px; font-size:14px; margin-left:3%;}
+
+#open_buyer_acc{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_phn{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_eml{ width:45%; padding:0 10px; height:40px; font-size:14px; margin-left:3%;}
+
+#opn_acc_login_eml{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_passw{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_rst_passw{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#erc_acc_opt{ width:25%; padding:0 10px; height:36px; font-size:14px; margin-right:0;}
+
+.opn_acc_frm_left span{ font-size:16px;}
+
+#opn_acc_eml_txt{ font-size:14px;}
+
+
+#erp_accpt_tnc{ margin-right:0;}
+
+
+/*--------contact-------*/
+
+#erp_cntct_snd{ width:15%; font-size:16px; height:45px;}
+
+.erp_cntct_info_sec ul{ padding-left:15%;}
+
+#erp_cntct_name{ width:100%;}
+
+#erp_cntct_eml{ width:100%; margin-left:0;}
+
+.erp_cntct_name_area{ width:48%;}
+
+.erp_cntct_name_area p{ width:100%;}
+
+.erp_cntct_eml_area{ width:48%; margin-left:2%;}
+
+.erp_cntct_eml_area p{ width:100%;}
+
+.erp_cntct_info_sec ul li{ font-size:14px;}
+
+.erp_cntct_info_sec h2{ margin-bottom:2%;}
+
+.erp_cntct_num{ font-size:14px;}
+
+.erp_cntct_eml{ font-size:14px;}
+
+.erp_cntct_info_sec{ margin-bottom:6%;}
+
+
+/*-------service-------*/
+
+.erp_servc_dtls_sec{ padding:3% 0; margin-top:5%;}
+
+.erp_servc_tl_sec{ padding:3% 20px; margin-top:5%;}
+
+.erp_fright_ship_sec{ padding:3% 20px; margin-top:5%;}
+
+.erp_rail_frght_sec{ margin-bottom:5%; padding:0; margin-top:5%;}
+
+.erp_breadcrumb{ padding:0;}
+
+.erp_breadcrumb p{ font-size:18px; line-height:56px;}
+
+.servc_dtls_icn{ width:6%; margin-top:5%;}
+
+.servc_dtls_icn img{ width:100%;}
+
+.servc_dtls_txt{ width:89%; margin-left:5%; margin-top:5%;}
+
+.erp_3rd_party_sec{ margin-top:4%; padding:0;}
+
+.abt_trnsp_icon{ width:25%; margin-top:4%;}
+
+.erp_servc_ltl{ padding:0 15px;}
+
+.erp_servc_ltl ul{ padding-left:10%;}
+
+.erp_air_frght_sec{ margin-top:5%; padding:0;}
+
+.erp_footer_nav{ padding:2% 15px;}
+
+.erp_fright_ship_sec p{ text-align:justify;}
+
+
+/*---------how it works---------*/
+
+.erp_cmplt_escrw_sec{ padding:0 15px;}
+
+.erp_cmplt_escrw_sec p{ text-align:justify;}
+
+.erp_benefit_escrw_sec{ margin-top:5%; padding:3% 0;}
+
+.erp_benefit_escrw_sec h3{ margin-top:3%;}
+
+.escrw_step_sec{ margin-top:5%; padding:0;}
+
+.escrw_step_sec p{ margin-top:2%;}
+
+.escrw_step_sub_point{ margin-top:2%;}
+
+
+/*---------terms----------*/
+
+.terms_of_use_sec{ padding:0;}
+
+.erp_terms_def_sec{ padding:3% 0; margin-top:5%;}
+
+.use_of_erp_sec{ margin-top:5%; padding:0;}
+
+.erp_priv_policy_sec{ margin-top:5%; padding:3% 0;}
+
+.erp_priv_policy_sec h2{ margin-bottom:5px;}
+
+.use_of_erp_sec h2{ margin-bottom:5px;}
+
+.termin_of_use_sec{ margin-top:5%; padding:0;}
+
+.termin_of_use_sec h2{ margin-bottom:5px;}
+
+.disc_of_warr_sec{ margin-top:5%; padding:3% 0;}
+
+.disc_of_warr_sec h2{ margin-bottom:5px;}
+
+.terms_of_use_sec h2{ margin-bottom:5px;}
+
+.erp_terms_def_sec h2{ margin-bottom:5px;}
+
+
+
+.erp_footer_nav ul{ padding:0; margin:0;}
+
+
+/*----------login----------*/
+
+div#login_form{ width:60%; padding:4%; margin-top:3%; margin-bottom:5%;}
+
+input#user_login{ height:40px;}
+
+input#user_pass{ height:40px;}
+
+.password label{ margin-top:18px;}
+
+.rememberme label{ width:100%;}
+
+input.user-submit{ font-size:17px; padding:8px 0 !important;}
+
+.rememberme{ margin-top:13px;}
+
+form.wp-user-form{ margin-bottom:0;}
+
+
+/*---------my account---------*/
+
+.my_acc_sidebar{ margin-bottom:35px;}
+
+.my_acct_error p{ font-size:16px; line-height:26px;}
+
+
+/*----------not found----------*/
+
+.no-results.not-found{ width:90%;}
+
+.no-results.not-found h1{ text-align:center;}
+
+input.search-field{ height:40px; padding:0 15px !important;}
+
+input.search-submit{ width:12%; height:40px; padding:0 !important;}
+
+form.search-form{ margin-top:35px;}
+
+form.search-form label{ width:45%;}
+
+
+

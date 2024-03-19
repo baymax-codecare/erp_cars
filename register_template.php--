@@ -1,0 +1,236 @@
+<?php 
+/*
+* Template Name: Register
+*/
+get_header();
+?>
+
+
+<section class="erp_breadcrumb">
+	<div class="container">
+    	<div class="row">
+        	<p><?php byc_get_current_page_name(); ?> <span><?php byc_get_breadcrumb(); ?></span></p>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="erp_transport_sec" id="erp_tracking">
+	<div class="container">
+    	<div class="row">
+        	<div class="col-12 col-sm-12 col-lg-3 col-xl-3">
+            	<div class="erp_sidebar"><h2>Track Shipments</h2>
+                <p>Track your shipment(s) movements around the world at any time.</p>
+                <form action="http://demo-website.review/erp_cars/tracking-details/" method="post" name="erp_track" id="erp_track">
+                	<h3>Tracking Number:</h3>
+                    <input type="number" name="erp_track_num" id="erp_track_num" autofocus required />
+                    <label class="erp_track_box">
+                    	<input type="checkbox" name="erp_trck_agree" id="erp_trck_agree" value="agree" required />By selecting the Track button, I agree to the Terms and Conditions.
+                    </label>
+                    <button type="submit" class="btn track_btn" name="tracking_submit">Track</button>
+                </form>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-9 col-xl-9">
+            	<?php echo do_shortcode('[contact-form-7 id="240" title="Shipping Details"]'); ?>            
+			</div>
+        </div>
+    </div>
+</section>
+
+
+<div class="erp_divider"></div>
+
+<section class="erp_opn_acc_sec">
+	<div class="container">
+    	<div class="row">
+        	<h2>Open an Account</h2>
+            <p>Let the International Specialists take care of your shipping needs - so you can focus on growing your business globally.</p>
+            <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+            	<h3>ON-TIME DELIVERY</h3>
+                <p>Relax. ERP Cars Trading collects, clears through customs and delivers millions of shipments.</p>
+            </div>
+             <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+            	<h3>EASE OF USE</h3>
+                <p>Ship with our easy to use tools, worldwide coverage and transparent rates.</p>
+            </div>
+             <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+            	<h3>SECURE NETWORK</h3>
+                <p>Your shipment stays with ERP Cars Trading from door-to-door giving you security and peace of mind.</p>
+            </div>
+             <div class="col-12 col-sm-12 col-lg-6 col-xl-6">
+            	<h3>REAL-TIME TRACKING</h3>
+                <p>Enjoy full visibility with real-time checkpoint and delivery details online.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="erp_divider"></div>
+<?php 
+
+//if(isset($_POST['erp_reg_sub']) && !empty($_POST['erp_reg_sub'])){ // Fetching variables of the form which travels in URL
+
+if(isset($_POST['erp_reg_sub'])) {	
+
+  //User Details:		
+  	
+	echo 'aaaaaaaaaaa';
+	
+	
+		$fname 		= $_POST['open_acc_name'];
+		$lname 		= $_POST['open_acc_sur'];			
+  		$address	= $_POST['open_acc_adr'];
+		$city		= $_POST['open_acc_cty'];
+  		$country	= $_POST['open_acc_count'];
+		$postalcode	= $_POST['open_acc_post'];
+		
+//Seller's / Buyer's account (Email)
+		$seller_buyer		= $_POST['erc_acc_opt'];
+		$seller_buyer_email	= $_POST['open_buyer_acc'];
+		
+//Contact Details:
+		$cont_phone = $_POST['opn_acc_phn'];
+		$cont_email = $_POST['opn_acc_eml'];
+
+//Login Details:	                    
+		$user_login = $_POST['opn_acc_login_eml'];
+		$password = $_POST['opn_acc_passw'];
+		$con_password = $_POST['opn_acc_rst_passw'];
+
+		
+		
+			echo 'First Name = '.$fname.'</br>'; 
+			echo 'Last Name = '.$lname.'</br>';
+			echo 'Address = '.$address.'</br>';
+			echo 'City = '.$city.'</br>';
+			echo 'Country = '.$country.'</br>';
+			echo 'Postalcode = '.$postalcode.'</br>';
+			echo 'Seller Buyer = '.$seller_buyer.'</br>';
+			echo 'Contact Phone = '.$cont_phone.'</br>';
+			echo 'Contact Email = '.$cont_email.'</br>';
+			echo 'User_login = '.$user_login.'</br>';
+			echo 'Password = '.$password.'</br>';
+			echo 'Confirm Password = '.$con_password.'</br>';
+			
+		
+					
+					
+					
+		if(!email_exists($_REQUEST['opn_acc_login_eml'])){	
+			
+ 					$new_user_id=1;
+ 					$new_user_profile = wp_insert_user(array(
+					'user_login'		=> $user_login,
+					'user_pass'	 		=> $password,
+					'user_email'		=> $user_login,
+					'first_name'		=> $fname,
+					'last_name'			=> $lname,
+					'role' 				=> 'customer',
+					'user_registered'	=> date('Y-m-d H:i:s'),
+				));
+				
+		 add_user_meta($new_user_id,'_new_user_details',$new_user_profile);
+		 
+		 update_user_meta($new_user_id,'address',$address);
+		 
+		//update_user_meta( $new_user_id, 'billing_address_1', $address );
+		
+        //update_user_meta( $new_user_id, 'billing_postcode', $postalcode );
+					
+	}
+	
+}
+
+?>
+
+
+<section class="erp_opn_acc_frm">
+	<div class="container">
+    	<div class="row">
+        	<h3>Complete the form below to create an account</h3>
+            <form action="" method="post" name="opn_acc_frm" id="opn_acc_frm">
+            	<div class="opn_acc_frm_left">
+                	<h3>User Details:</h3>
+                    <input type="text" name="open_acc_name" id="open_acc_name" placeholder="First Name*"  required/>
+                    <input type="text" name="open_acc_sur" id="open_acc_sur" placeholder="Last Name*" required/>
+                    <input type="text" name="open_acc_adr" id="open_acc_adr" placeholder="Address*" required/>
+                    <input type="text" name="open_acc_cty" id="open_acc_cty" placeholder="City*" required/>
+                    <input type="text" name="open_acc_count" id="open_acc_count" placeholder="Country*" required/>
+                    <input type="text" name="open_acc_post" id="open_acc_post" placeholder="Zip code*" required/>
+                    <h3>Seller's / Buyer's account (Email):</h3>
+                    <input type="email" name="open_buyer_acc" id="open_buyer_acc" placeholder="Email" />
+                    <span>I am the:</span>
+                    <select name="erc_acc_opt" id="erc_acc_opt" required>
+                    	<option value="seller">Seller</option>
+                        <option value="buyer">Buyer</option>
+                    </select><br />
+                    
+                   
+                    <div class="clearfix"></div>
+                </div>
+                <div class="opn_acc_frm_left">
+                	<h3>Contact Details:</h3>
+                    <input type="text" name="opn_acc_phn" id="opn_acc_phn" placeholder="Phone Number*" required/>
+                    <input type="email" name="opn_acc_eml" id="opn_acc_eml" placeholder="Email*" required/>
+                    <p id="opn_acc_eml_txt">We respect your privacy and will not share your information with anyone. <a href="#">Read More...</a></p>
+                    <h3>Login Details:</h3>
+                    <input type="email" name="opn_acc_login_eml" id="opn_acc_login_eml" placeholder="Email*" required/>
+                    <input type="password" name="opn_acc_passw" id="opn_acc_passw" placeholder="Password*"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" minlength="8" maxlength="40"required/>
+					  <span id="letter" class="invalid"></span>
+                    <input type="password" name="opn_acc_rst_passw" id="opn_acc_rst_passw" placeholder="Confirm Password*"  minlength="8" maxlength="40" required/>
+                    <div class="clearfix"></div>
+                </div>
+				<input type="checkbox" name="erp_accpt_tnc" id="erp_accpt_tnc" value="accept" required/>
+                    <span id="accpt_tnc">I accept the <a href="#">Terms and Conditions</a></span>
+                 <button type="submit" name="erp_reg_sub" id="erp_reg_sub">Register Account</button>
+            </form>
+			
+        </div>
+    </div>
+</section>
+
+
+<script type="text/javascript"> 
+
+</script> 
+
+<script>
+var myInput = document.getElementById("opn_acc_passw");
+var letter = document.getElementById("letter");
+
+// When the user clicks on the password field, show the message box
+myInput.onfocus = function() {
+  document.getElementById("letter").style.display = "block";
+}
+
+// When the user clicks outside of the password field, hide the message box
+myInput.onblur = function() {
+  document.getElementById("letter").style.display = "none";
+  
+}
+
+// When the user starts to type something inside the password field
+myInput.onkeyup = function() {
+  // Validate lowercase letters
+  var input1 = myInput.value.match(/[a-z]/g);
+  var input2 = myInput.value.match(/[A-Z]/g);
+  var input3 = myInput.value.match(/[0-9]/g);
+  var input4 = myInput.value.length >= 8;
+  
+  if(input1 && input2 && input3 && input4) {  
+    letter.classList.remove("invalid");
+    letter.classList.add("valid");
+    
+  } else {
+    letter.classList.remove("valid");
+    letter.classList.add("invalid");
+  }
+  
+}
+</script>
+
+
+
+<?php get_footer(); ?>

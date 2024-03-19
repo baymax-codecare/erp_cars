@@ -1,0 +1,246 @@
+<?php 
+/* ---------------------------------------------------------------------------
+/* ---------------------------------------------------------------------------
+*  Extra User Field Options
+* --------------------------------------------------------------------------- */
+
+$user_id = wp_get_current_user();
+
+
+add_action( 'show_user_profile', 'byc_extra_user_fields' );
+add_action( 'edit_user_profile', 'byc_extra_user_fields' );
+
+function byc_extra_user_fields( $user ) { ?>
+	 <h2  class="extra_user_field" style="text-align:center; font-size: 30px; "><?php _e("Custom User Fields", "blank"); ?></h2>
+    <h3><?php _e("User Details", "blank"); ?></h3>
+
+    <table class="form-table" role="presentation">
+    <tr>
+        <th><label for="address"><?php _e("Address"); ?></label></th>
+        <td>
+            <input type="text" name="address" id="address" value="<?php echo esc_attr( get_the_author_meta( 'address', $user->ID ) ); ?>" class="regular-text" /><br />
+            <span class="description"><?php _e("Please enter your address."); ?></span>
+        </td>
+    </tr>
+	
+	<tr>
+        <th><label for="country"><?php _e("Country"); ?></label></th>
+        <td>
+            <input type="text" name="country" id="country" value="<?php echo esc_attr( get_the_author_meta( 'country', $user->ID ) ); ?>" class="regular-text" /><br />
+            <span class="description"><?php _e("Please enter your country."); ?></span>
+        </td>
+    </tr>
+	
+	
+    <tr>
+        <th><label for="city"><?php _e("City"); ?></label></th>
+        <td>
+            <input type="text" name="city" id="city" value="<?php echo esc_attr( get_the_author_meta( 'city', $user->ID ) ); ?>" class="regular-text" /><br />
+            <span class="description"><?php _e("Please enter your city."); ?></span>
+        </td>
+    </tr>
+    <tr>
+    <th><label for="postalcode"><?php _e("Postal Code"); ?></label></th>
+        <td>
+            <input type="text" name="postalcode" id="postalcode" value="<?php echo esc_attr( get_the_author_meta( 'postalcode', $user->ID ) ); ?>" class="regular-text" /><br />
+            <span class="description"><?php _e("Please enter your postal code."); ?></span>
+        </td>
+    </tr>
+	
+    </table>
+	
+<!-- Contact Deatails-->
+
+	 <h3><?php _e("Contact Details", "blank"); ?></h3>
+	 
+	 <table class="form-table" role="presentation">
+	 	<tr>
+			<th> <label for="city"><?php _e("Phone"); ?></label> </th>
+			<td> <input type="text" name="phone" id="phone" value="<?php echo esc_attr( get_the_author_meta( 'phone', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your phone."); ?></span> 
+			</td>
+		</tr>
+		
+		<tr>
+			<th> <label for="city"><?php _e("Contact Email"); ?></label> </th>
+			<td> <input type="text" name="con-email" id="con-email" value="<?php echo esc_attr( get_the_author_meta( 'con-email', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your contact email."); ?></span> 
+			</td>
+		</tr>
+		
+	 </table>
+	
+	
+	
+<!-- Seller/ Buyer Deatails-->
+
+	<h3><?php _e("Seller/Buyer Detail", "blank"); ?></h3>
+	 
+	 <table class="form-table" role="presentation">
+		
+		<tr>
+			<th> <label for="city"><?php _e("Seller/Buyer"); ?></label> </th>
+			<td> <input type="text" name="seller-buyer" id="seller-buyer" value="<?php echo esc_attr( get_the_author_meta( 'seller-buyer', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your seller/buyer."); ?></span> 
+			</td>
+		</tr>
+		
+		<tr>
+			<th> <label for="city"><?php _e("Seller/Buyer Email"); ?></label> </th>
+			<td> <input type="text" name="seller-buyer-email" id="seller-buyer-email" value="<?php echo esc_attr( get_the_author_meta( 'seller-buyer-email', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your seller/buyer email."); ?></span> 
+			</td>
+		</tr>
+		
+	 </table>
+	
+	
+	
+	
+<!-- Log In Deatails-->
+
+	<h3><?php _e("Log In Detail", "blank"); ?></h3>
+	 
+	 <table class="form-table" role="presentation">
+		
+		<tr>
+			<th> <label for="city"><?php _e("Password"); ?></label> </th>
+			<td> <input type="text" name="password" id="password" value="<?php echo esc_attr( get_the_author_meta( 'password', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your password."); ?></span> 
+			</td>
+		</tr>
+		
+		<tr>
+			<th> <label for="city"><?php _e("Confirm Password"); ?></label> </th>
+			<td> <input type="text" name="confirm-password" id="confirm-password" value="<?php echo esc_attr( get_the_author_meta( 'confirm-password', $user->ID ) ); ?>" class="regular-text" /><br />
+            	 <span class="description"><?php _e("Please enter your confirm-password"); ?></span> 
+			</td>
+		</tr>
+		
+	 </table>
+	
+	
+	
+<?php }
+
+/*=====================================================================
+ Extra User Field Save Function
+=====================================================================*/
+
+add_action( 'personal_options_update', 'save_byc_extra_user_fields' );
+add_action( 'edit_user_profile_update', 'save_byc_extra_user_fields' );
+
+function save_byc_extra_user_fields( $user_id ) {
+    if ( !current_user_can( 'edit_user', $user_id ) ) { 
+        return false; 
+    }
+    update_user_meta( $user_id, 'byc_address', $_POST['address'] );
+	update_user_meta( $user_id, 'byc_country', $_POST['country'] );
+    update_user_meta( $user_id, 'byc_city', $_POST['city'] );
+    update_user_meta( $user_id, 'byc_postal', $_POST['postalcode'] );
+	
+//contact details
+	update_user_meta( $user_id, 'byc_phone', $_POST['phone'] );
+	update_user_meta( $user_id, 'byc_email', $_POST['con-email'] );
+	
+//Seller/ Buyer details
+	update_user_meta( $user_id, 'byc_seller_buyer', $_POST['seller-buyer'] );
+	update_user_meta( $user_id, 'byc_seller_buyer_email', $_POST['seller-buyer-email'] );
+	
+// Login Details
+	update_user_meta( $user_id, 'byc_password', $_POST['password'] );
+	update_user_meta( $user_id, 'byc_confirm_password', $_POST['confirm-password'] );	
+	
+}
+
+
+  /*Custom Post type start*/
+add_action('init', 'byc_cw_post_type_tracking_details');
+function byc_cw_post_type_tracking_details() {
+	$supports = array(
+		'title', // post title
+		'editor', // post content
+		'author', // post author
+		'thumbnail', // featured images
+		'excerpt', // post excerpt
+		'custom-fields', // custom fields
+		'comments', // post comments
+		'revisions', // post revisions
+		'post-formats', // post formats
+		);
+	$labels = array(
+		'name' => _x('Home Post', 'plural'),
+		'singular_name' => _x('Tracking', 'singular'),
+		'menu_name' => _x('Tracking', 'admin menu'),
+		'name_admin_bar' => _x('tracking', 'admin bar'),
+		'add_new' => _x('Add New', 'add new'),
+		'add_new_item' => __('Add New tracking details'),
+		'new_item' => __('New tracking details'),
+		'edit_item' => __('Edit tracking details'),
+		'view_item' => __('View tracking details'),
+		'all_items' => __('All tracking'),
+		'search_items' => __('Search tracking details'),
+		'not_found' => __('No news found.'),
+		);
+	$args = array(
+		'supports' => $supports,
+		'labels' => $labels,
+		'public' => true,
+		'query_var' => true,
+		'rewrite' => array('slug' => 'tracking'),
+		'has_archive' => true,
+		'hierarchical' => false,
+		);
+	register_post_type('tracking', $args);
+ 
+      //To add categories in your existing custom post					
+   add_action( 'init', 'byc_wpshout_add_taxonomies_to_tracking' );		
+  function byc_wpshout_add_taxonomies_to_tracking() {				
+	register_taxonomy_for_object_type( 'category', 'tracking' );		
+	register_taxonomy_for_object_type( 'difficulty', 'tracking' );		
+	register_taxonomy_for_object_type( 'post_tag', 'tracking' );		
+	}									 
+
+}
+
+
+function byc_get_breadcrumb() {
+    echo '<a href="'.home_url().'" rel="nofollow">Home</a>';
+    if (is_category() || is_single()) {
+        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        the_category(' &bull; ');
+            if (is_single()) {
+                echo " &nbsp;&nbsp;&#187;&nbsp;&nbsp; ";
+                the_title();
+            }
+    } elseif (is_page()) {
+        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;";
+        echo the_title();
+    } elseif (is_search()) {
+        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
+        echo '"<em>';
+        echo the_search_query();
+        echo '</em>"';
+    }
+}
+
+
+function byc_get_current_page_name() {
+    if (is_category() || is_single()) {
+       
+        the_category(' &bull; ');
+            if (is_single()) {
+                
+                the_title();
+            }
+    } elseif (is_page()) {
+       
+        echo the_title();
+    } elseif (is_search()) {
+        echo "&nbsp;&nbsp;&#187;&nbsp;&nbsp;Search Results for... ";
+        echo '"<em>';
+        echo the_search_query();
+        echo '</em>"';
+    }
+}
+

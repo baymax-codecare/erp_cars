@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{ font-size:30px;}
+
+#sel_language{ font-size:10px; height:20px; padding:0 3px;}
+
+#erp_search{ font-size:10px; height:20px; padding:0 3px; width:75%;}
+
+.erp_search_btn{ font-size:12px; padding:0; height:20px; width:22%;}
+
+.erp_header ul{ padding: 0;}
+
+.erp_header{ padding:7px 15px;}
+
+.erp_header ul li{ font-size:10px;}
+
+.erp_nav_sec{ padding:8px 15px;}
+
+.erp_nav_sec img{ width:47%;}
+
+.bg-light{ padding-bottom:0; padding-left:0; padding-top:5px; width:100%;}
+
+.navbar-toggler-icon{ width:25px; height:25px;}
+
+.navbar-toggler{ padding:2px 6px; margin-left:86%;}
+
+.navbar-nav{ padding:12px 0; font-size:12px; width:53%; background:#ccc; position:fixed; z-index:999;}
+
+.navbar-expand-lg .navbar-nav .nav-link{ padding-left:15px;}
+
+li.nav-item{ padding:10px 0; border-bottom:1px solid;}
+
+.erp_bnr_sec p{ font-size:28px; padding:0 15px; margin-bottom:0;}
+
+.erp_sidebar{ padding:15px 30px;}
+
+.track_btn{ width:15%; margin-top:10px;}
+
+.erp_service_sec{ padding:4% 15px; margin-top:7%;}
+
+.erp_service_sec span{ font-size:16px; line-height:42px;}
+
+.erp_service_area_right{ padding-left:0;}
+
+.erp_service_area{ padding-left:35%; margin-top:4%;}
+
+.transp_icon{ width:14%;}
+
+.erp_service_sec h2{ margin-bottom:10px;}
+
+.benefit_escrw_sec{ margin-top:7%; padding:0 15px;}
+
+.benefit_escrw_left p{ text-align:justify;}
+
+.benefit_escrw_num{ width:8%; margin-top:4%;}
+
+.benefit_escrw_txt{ width:86%; margin-top:4%; margin-left:6%;}
+
+.benefit_escrw_sec p{ text-align:justify; margin-top:2%; margin-bottom:0;}
+
+.erp_contact_sec{ margin-top:7%; padding:4% 15px;}
+
+.erp_contact_sec .erp_contact_area ul{ padding-left:16%; margin-bottom:0;}
+
+.erp_contact_sec .erp_contact_area ul li{ font-size:14px; line-height:18px;}
+
+.erp_contact_txt{ font-size:15px; margin-top:5%;}
+
+.erp_contact_eml{ font-size:15px;}
+
+.erp_footer_nav ul li{ font-size:10px;}
+
+.erp_footer p{ font-size:9px; line-height:20px; text-align:left;}
+
+.erp_footer ul{ text-align:right; line-height:inherit; margin-top:0;}
+
+.erp_footer{ padding:12px 15px;}
+
+
+/*-------about-------*/
+
+form#erp_quote_frm{ margin-top:5%;}
+
+#erp_quote_frm p{ font-size:20px;}
+
+#erp_country{ padding:0 7px; width:100%; font-size:14px; height:36px; margin-bottom:0;}
+
+#erp_city{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px; margin-bottom:0;}
+
+#erp_zip{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px; margin-bottom:0;}
+
+#erp_country_snd{ padding:0 7px; width:100%; font-size:14px; height:36px; margin-left:0; margin-bottom:0;}
+
+#erp_city_snd{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px; margin-bottom:0;;}
+
+#erp_zip_snd{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px; margin-bottom:0;}
+
+#erp_date{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-bottom:0; margin-bottom:0;}
+
+#erp_weight{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px; margin-bottom:0;}
+
+select#erp_weight_measurement{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-top:15px;}
+
+#erp_quote_eml{ padding:0 10px; width:100%; font-size:14px; height:36px; margin-left:0; margin-right:0; margin-bottom:20px;}
+
+#erp_shop_online{ width:5%;}
+
+#erp_quote_frm span{ width:95%;}
+
+#erp_apply{ width:5%;}
+
+#erp_quote_btn{ width:18%; line-height:22px; font-size:13px; margin-top:12px;}
+
+.erp_abt_trnsp_sec p{ line-height:20px;}
+
+.erp_abt_award_txt{ font-size:20px; margin-top:12%;}
+
+.erp_divider{ margin-top:5%; margin-bottom:5%; border:1px solid #efeded;}
+
+.erp_breadcrumb p span{ font-size:16px;}
+
+.abt_trnsp_icon{ width:12%; margin-top:3%;}
+
+.erp_abt_trnsp_sec{ margin-top:5%; padding:3% 0;}
+
+.erp_abt_award_sec{ margin-top:5%; margin-bottom:5%;}
+
+
+section.erp_transport_sec p{ margin-bottom:0; width:100%; float:none;}
+
+.sending-textarea textarea{ width:100%;}
+
+input[type="checkbox"]{ margin-top:10px;}
+
+.erp_abt_award_img{ margin-top:4%;}
+
+.erp_abt_award_sec h2{ margin-bottom:0;}
+
+.erp_transport_sec h3{ margin-top:25px;}
+
+.erp_about_sec h2{ margin-bottom:0;}
+
+
+/*---------register--------*/
+
+.opn_acc_frm_left{ width:100%;}
+
+#accpt_tnc{ margin-right:56%; font-size:14px;}
+
+#erp_reg_sub{ width:24%; margin-top:25px; height:42px; font-size:16px; margin-left:0;}
+
+#open_acc_name{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_sur{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_adr{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_cty{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_count{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_acc_post{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#open_buyer_acc{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_phn{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_eml{ width:45%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_login_eml{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_passw{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#opn_acc_rst_passw{ width:55%; padding:0 10px; height:40px; font-size:14px;}
+
+#erc_acc_opt{ width:86%; padding:0 10px; height:40px; font-size:14px;}
+
+.opn_acc_frm_left span{ font-size:16px;}
+
+#opn_acc_eml_txt{ font-size:14px;}
+
+#open_acc_name{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#open_acc_sur{ width:100%; padding:0 10px; height:40px; margin-left:0; font-size:13px;}
+
+#open_acc_adr{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#open_acc_cty{ width:100%; padding:0 10px; height:40px; margin-left:0; font-size:13px;}
+
+#open_acc_count{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#open_acc_post{ width:100%; padding:0 10px; height:40px; margin-left:0; font-size:13px;}
+
+#open_buyer_acc{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#opn_acc_phn{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#opn_acc_eml{ width:100%; padding:0 10px; height:40px; font-size:13px; margin-left:0;}
+
+#opn_acc_login_eml{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#opn_acc_passw{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+#opn_acc_rst_passw{ width:100%; padding:0 10px; height:40px; font-size:13px;}
+
+
+.erp_opn_acc_sec h2{ font-size:32px; margin-bottom:0;}
+
+.erp_opn_acc_sec p{ margin-bottom:0;}
+
+.erp_opn_acc_sec h3{ margin-top:24px;}
+
+.erp_opn_acc_frm h3{ margin-bottom:0;}
+
+#erp_accpt_tnc{ margin-top:28px; margin-right:0;}
+
+.erp_opn_acc_frm{ margin-bottom:2%;}
+
+
+
+/*--------contact-------*/
+
+#erp_cntct_snd{ width:22%;}
+
+.erp_cntct_info_sec ul{ padding-left:15%; margin-bottom:0;}
+
+#erp_cntct_name{ width:100%;}
+
+#erp_cntct_eml{ width:100%; margin-left:0;}
+
+.erp_cntct_name_area{ width:100%;}
+
+.erp_cntct_name_area p{ width:100%;}
+
+.erp_cntct_eml_area{ width:100%; margin-left:0;}
+
+.erp_cntct_eml_area p{ width:100%;}
+
+.erp_cntct_info_sec ul li{ font-size:14px;}
+
+.erp_cntct_info_sec h2{ margin-bottom:0; font-size:36px;}
+
+.erp_cntct_num{ font-size:14px;}
+
+.erp_cntct_eml{ font-size:14px;}
+
+.erp_cntct_info_sec{ margin-bottom:4%;}
+
+
+.erp_cntct_frm_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_cntct_frm_sec p{ margin-bottom:10px;}
+
+.erp_cntct_num{ margin-top:4%;}
+
+
+/*-------service-------*/
+
+.erp_servc_dtls_sec{ padding:3% 15px; margin-top:5%;}
+
+.erp_servc_tl_sec{ padding:4% 15px; margin-top:5%;}
+
+.erp_fright_ship_sec{ padding:4% 15px; margin-top:5%;}
+
+.erp_rail_frght_sec{ margin-bottom:4%; padding:0 15px; margin-top:5%;}
+
+.erp_breadcrumb{ padding:0 15px;}
+
+.erp_breadcrumb p{ font-size:18px; line-height:56px;}
+
+.servc_dtls_icn{ width:10%; margin-top:4%;}
+
+.servc_dtls_icn img{ width:100%;}
+
+.servc_dtls_txt{ width:85%; margin-left:5%; margin-top:4%;}
+
+.erp_3rd_party_sec{ margin-top:5%; padding:0 15px;}
+
+.abt_trnsp_icon{ width:12%; margin-top:2%;}
+
+.erp_servc_ltl{ padding:0 15px;}
+
+.erp_servc_ltl ul{ padding-left:10%; margin-bottom:0;}
+
+.erp_air_frght_sec{ margin-top:5%; padding:0 15px;}
+
+.erp_footer_nav{ padding:2% 15px; clear:both;}
+
+.erp_fright_ship_sec p{ text-align:justify; margin-bottom:0;}
+
+
+.erp_servc_dtls_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_servc_dtls_sec p{ margin-bottom:0;}
+
+.erp_3rd_party_sec h3{ margin-bottom:0;}
+
+.erp_3rd_party_sec p{ margin-bottom:0;}
+
+.erp_servc_ltl h3{ margin-bottom:0;}
+
+.erp_servc_ltl h2{ font-size:36px; margin-bottom:0; margin-top:5px;}
+
+.erp_servc_ltl p{ margin-bottom:0;}
+
+.erp_servc_tl_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_servc_tl_sec p{ margin-bottom:0;}
+
+.erp_air_frght_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_air_frght_sec p{ margin-bottom:0;}
+
+.erp_air_frght_sec h3{ margin-top:5px;}
+
+.erp_fright_ship_sec h2{ font-size:32px; margin-bottom:0;}
+
+.erp_rail_frght_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_rail_frght_sec p{ margin-bottom:0; margin-top:15px;}
+
+
+/*---------how it works---------*/
+
+.erp_cmplt_escrw_sec{ padding:0 15px;}
+
+.erp_cmplt_escrw_sec p{ text-align:justify; margin-bottom:0;}
+
+.erp_benefit_escrw_sec{ margin-top:5%; padding:4% 0;}
+
+.erp_benefit_escrw_sec h3{ margin-top:2%; border-top:0; margin-bottom:0;}
+
+.escrw_step_sec{ margin-top:5%; padding:0;}
+
+.escrw_step_sec p{ margin-top:2%; margin-bottom:0;}
+
+.escrw_step_sub_point{ margin-top:4%;}
+
+
+.erp_cmplt_escrw_sec h3{ margin-bottom:0;}
+
+.erp_benefit_escrw_sec h2{ font-size:36px; margin-bottom:0;}
+
+.erp_benefit_escrw_sec p{ margin-bottom:0;}
+
+.escrw_step_sec h3{ margin-bottom:0;}
+
+
+/*---------terms----------*/
+
+.terms_of_use_sec{ padding:0;}
+
+.erp_terms_def_sec{ padding:3% 0; margin-top:5%;}
+
+.use_of_erp_sec{ margin-top:5%; padding:0;}
+
+.erp_priv_policy_sec{ margin-top:5%; padding:3% 0;}
+
+.erp_priv_policy_sec h2{ margin-bottom:0; font-size:36px;}
+
+.use_of_erp_sec h2{ margin-bottom:0; font-size:36px;}
+
+.termin_of_use_sec{ margin-top:5%; padding:0;}
+
+.termin_of_use_sec h2{ margin-bottom:0; font-size:36px;}
+
+.disc_of_warr_sec{ margin-top:5%; padding:3% 0;}
+
+.disc_of_warr_sec h2{ margin-bottom:0; font-size:36px;}
+
+.terms_of_use_sec h2{ margin-bottom:0; font-size:36px;}
+
+.erp_terms_def_sec h2{ margin-bottom:0; font-size:36px;}
+
+
+.terms_of_use_sec p{ margin-bottom:0;}
+
+.terms_of_use_sec ul{ margin-bottom:0;}
+
+.erp_terms_def_sec p{ margin-bottom:0;}
+
+.use_of_erp_sec p{ margin-bottom:0;}
+
+.erp_priv_policy_sec p{ margin-bottom:0;}
+
+.termin_of_use_sec p{ margin-bottom:0;}
+
+.disc_of_warr_sec p{ margin-bottom:0;}
+
+
+
+
+
+
+.erp_nav_menu{ width:100%;}
+
+.navbar-nav li{ line-height:28px;}
+
+.erp_track_box{ font-size:12px; width:100%;}
+
+#erp_trck_agree{ width:4%; height:auto; margin:0 2% 0 0; float:left;}
+
+label.erp_track_box span{ width:92%; float:left; margin-top:-2px;}
+
+section#erp_home_service p{ margin-bottom:0;}
+
+.transp_area{ margin-top:3%;}
+
+section.benefit_escrw_sec h2{ margin-bottom:0;}
+
+.erp_contact_sec h2{ margin-bottom:0;}
+
+.erp_contact_area{ margin-top:3%;}
+
+.erp_footer_nav ul{ position:static; background:transparent; margin:0; padding:0;}
+
+
+/*----------login----------*/
+
+div#login_form{ width:80%; padding:5%; margin-top:4%; margin-bottom:6%;}
+
+input#user_login{ height:35px;}
+
+input#user_pass{ height:35px;}
+
+.password label{ margin-top:18px;}
+
+.rememberme label{ width:100%;}
+
+input.user-submit{ font-size:16px; padding:7px 0 !important;}
+
+.rememberme{ margin-top:13px;}
+
+form.wp-user-form{ margin-bottom:0;}
+
+
+/*---------my account---------*/
+
+.my_acc_sidebar{ margin-top:20px;}
+
+.my_acc_sidebar{ margin-bottom:0;}
+
+.my_acct_error p{ font-size:13px; line-height:30px;}
+
+.my_acct_error{ margin-top:30px; margin-bottom:25px;}
+
+
+/*--------search--------*/
+
+header.page-header{ width:100%;}
+
+h1.page-title{ font-size:36px; text-align:center; margin-top:5px;}
+
+h2.entry-title{ font-size:30px; margin-top:10px;}
+
+
+/*----------not found----------*/
+
+.no-results.not-found{ width:90%;}
+
+input.search-field{ height:36px; padding:0 15px !important;}
+
+input.search-submit{ width:15%; height:36px; padding:0 !important;}
+
+form.search-form{ margin-top:35px;}
+
+
+/*---------404---------*/
+
+.error-404.not-found{ width:90%;}
+
+
+
